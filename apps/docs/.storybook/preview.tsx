@@ -21,24 +21,6 @@ const preview: Preview = {
       defaultTheme: 'light',
       Provider: ThemeProvider,
     }),
-    // (Story, context) => {
-    //   const [themeWithRef, setThemeWithRef] = useState<Theme | undefined>();
-
-    //   const setRef = useCallback(
-    //     (headRef: HTMLDivElement | null) => {
-    //       if (headRef) {
-    //         setThemeWithRef(getTheme(headRef, context.globalTypes.theme));
-    //       }
-    //     },
-    //     [context.globalTypes.theme],
-    //   );
-
-    //   return (
-    //     <div ref={setRef}>
-    //       {themeWithRef && <ThemeProvider theme={themeWithRef}>{Story()}</ThemeProvider>}
-    //     </div>
-    //   );
-    // },
   ],
 };
 
